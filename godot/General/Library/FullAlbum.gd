@@ -40,15 +40,16 @@ func _ready():
 	if art:
 		pass
 	else:
-		meta.get_art()
-		art = meta.art
+		if meta:
+			meta.get_art()
+			art = meta.art
 		
 	var tracks := get_tracks()
 	var total_tracks := tracks.size()
 	var columns = ceil(total_tracks / MaximumTracksInColumn) + 1
 	tracks_n.columns = columns if columns > 1 else 1
 	
-	if meta.album and not title:
+	if meta and meta.album and not title:
 		title = meta.album
 		if art:
 			$VBoxContainer/Art.texture = art

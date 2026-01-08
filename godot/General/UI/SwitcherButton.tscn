@@ -5,8 +5,6 @@
 [node name="Button" type="Button"]
 margin_right = 16.0
 margin_bottom = 20.0
+text = ""
 flat = true
 script = ExtResource( 1 )
-__meta__ = {
-"_edit_use_anchors_": false
-}

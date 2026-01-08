@@ -12,14 +12,15 @@ var path: String
 # const FullAlbum = preload("res://General/Library/FullAlbum.gd")
 
 func _ready():
-	var t = Global.AudioMetadata.get_textual_metadata(path)
-	artist = t["artist"]
-	title = t["title"] 
-	album = t["album"] 
-	hint_tooltip =t["title"] 
+	if false:
+		var t = Global.AudioMetadata.get_textual_metadata(path)
+		artist = t["artist"]
+		title = t["title"] 
+		album = t["album"] 
+		hint_tooltip =t["title"] 
 	
 func get_art() -> Image:
-	var img = Global.AudioMetadata.get_album_art(path)
+	var img = null # Global.AudioMetadata.get_album_art(path)
 	if img and not art:
 		art = ImageTexture.new()
 		art.create_from_image(img)

@@ -12,10 +12,12 @@ A toy music player made in the [Godot](https://godotengine.org/) game engine
 - Playlist Support
 
 ### Screenshots
-- [Visualizer](https://cdn.discordapp.com/attachments/635625925748457482/923598671709372456/unknown.png)
-- [Album View](https://cdn.discordapp.com/attachments/781077863981776971/923627802643812372/unknown.png)
-- [Settings View](https://cdn.discordapp.com/attachments/781077863981776971/923627994629681202/unknown.png)
-- [Playlist Creator](https://i.imgur.com/bQPssgZ.png)
+<img width="1052" height="666" alt="image" src="https://github.com/user-attachments/assets/0136409c-f0c8-4b6c-bc6e-caa87fcb70a7" />
+<img width="1052" height="666" alt="image" src="https://github.com/user-attachments/assets/92af7d40-388a-4f4a-b4d4-cce8abf8723e" />
+<img width="1052" height="666" alt="image" src="https://github.com/user-attachments/assets/b7694288-eb72-4221-91a9-e826cadb87f8" />
+<img width="1052" height="666" alt="image" src="https://github.com/user-attachments/assets/a5423ba4-e53e-426b-8252-b1695dad0163" />
+
+This was before GDExtension so I had to rebuild Godot for extensions to play FLAC and read audio metadata, I didnt have those extensions when taking the screenshots so the albumn art isnt visible
 
 ## Installation
 Download the binary for your platform from the releases page (x86_64 for Linux/X11 or .exe for Windows)
